@@ -1,0 +1,14 @@
+profile = "foreach-bug-demo@1.0.0"
+provider = "demo"
+
+map ForeachBugDemo {
+  mappedItems = call foreach(item of input.items) mapItems(item = item)
+
+  map result {
+      items: mappedItems
+  }
+}
+
+operation mapItems {
+    return args.item
+}

@@ -1,0 +1,14 @@
+"""
+Foreach bug demo
+"""
+
+name = "foreach-bug-demo"
+version = "1.0.0"
+
+usecase ForeachBugDemo {
+  input {}
+
+  result {
+      items
+  }
+}

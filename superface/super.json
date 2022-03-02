@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "foreach-bug-demo": {
+      "file": "../grid/foreach-bug-demo/profile.supr",
+      "providers": {
+        "demo": {
+          "file": "../grid/foreach-bug-demo/demo.suma"
+        }
+      }
+    }
+  },
+  "providers": {
+    "demo": {
+      "file": "../providers/demo.json"
+    }
+  }
+}
