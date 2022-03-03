@@ -6,9 +6,11 @@ name = "foreach-bug-demo"
 version = "1.0.0"
 
 usecase ForeachBugDemo {
-  input {}
+  input {
+    items
+  }
 
   result {
-      items
+    items
   }
 }
